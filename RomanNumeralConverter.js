@@ -24,6 +24,8 @@ function convertToRomanNumeral(num) {
         return "Invalid roman numeral range."
     }
 
+    // Create an array of objects that will handle each value
+    // corresponding to its roman numeral
     const romanNumerals = [
         { value: 1000, numerals: "M" },
         { value: 900, numerals: "CM" },
@@ -43,18 +45,25 @@ function convertToRomanNumeral(num) {
         { value: 1, numerals: "I" },
     ]
 
+    // Empty string to store the final result
     let result = ""
 
+    // Traverse the array of roman numerals
     for (const item of romanNumerals) {
+
+        // While num is greater than roman numeral values
+        // proceed to this block
         while (num >= item.value) {
+            
+            // Concatenate the corresponding roman numeral to result
             result += item.numerals
+
+            // Then, substract the roman numeral corresponding value
             num -= item.value
         }
     }
 
-
     return result;
 }
-
 
 convertToRomanNumeral(36)
