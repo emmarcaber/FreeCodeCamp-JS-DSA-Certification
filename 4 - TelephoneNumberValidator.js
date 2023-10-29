@@ -17,7 +17,7 @@
 
 /**
  * Returns true if the number is a valid US Phone Number.
- * @param {*} str 
+ * @param {string} str 
  * @returns boolean 
  */
 function telephoneCheck(str) {

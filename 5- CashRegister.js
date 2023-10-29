@@ -92,9 +92,11 @@ function checkCashRegister(price, cash, cid) {
                 changeDue = Math.round(changeDue);
             }
         }
+
         if (changeDue === 0) {
             return {status: "OPEN", change: change};
-        } else {
+        } 
+        else {
             return {status: "INSUFFICIENT_FUNDS", change: []}
         }
     }

@@ -12,7 +12,7 @@
 
 /**
  * Decodes ROT13 cipher
- * @param {*} str 
+ * @param {string} str 
  * @returns str
  */
 function rot13(str) {

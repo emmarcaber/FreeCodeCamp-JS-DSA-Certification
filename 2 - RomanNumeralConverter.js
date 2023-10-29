@@ -19,6 +19,11 @@
     All roman numerals answers should be provided in upper-case.
 */
 
+/**
+ * Convert number to roman numerals.
+ * @param {int} num 
+ * @returns string
+ */
 function convertToRomanNumeral(num) {
     if (num <= 0 || num >= 4000) {
         return "Invalid roman numeral range."

@@ -12,6 +12,11 @@
         We'll also pass strings with special symbols, such as 2A3*3a2, 2A3 3a2, and 2_A3*3#A2.
 */
 
+/**
+ * Checks if a string is a palindrome.
+ * @param {string} str 
+ * @returns boolean
+ */
 function palindromeChecker(str) {
 
     // Remove all the non-alphanumeric characters and make it lowercase
