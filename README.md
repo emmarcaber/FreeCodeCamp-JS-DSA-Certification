@@ -1,4 +1,4 @@
-# FreeCodeCamp Javascript Data Structures and Algorithm Certification
+# FreeCodeCamp Javascript DSA Certification
 I successfully completed the following projects as part of FreeCodeCamp certification. All projects passed automated test suites:
 
 ## Palindrome Checker
