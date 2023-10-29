@@ -1,5 +1,5 @@
 # FreeCodeCamp Javascript DSA Certification
-I successfully completed the following projects as part of FreeCodeCamp certification. All projects passed automated test suites:
+The following projects are completed as part of FreeCodeCamp certification. All projects passed automated test suites:
 
 ## Palindrome Checker
 - This project is a Palindrome Checker that determines if a given string is a palindrome, which means it reads the same forwards and backward.
@@ -21,4 +21,4 @@ I successfully completed the following projects as part of FreeCodeCamp certific
 - The Cash Register project is a JavaScript application that simulates a cash register.
 - It calculates the change to be given based on the purchase price, payment, and the available denominations in the cash register drawer. It ensures that the exact change is provided when possible and handles different currency denominations.
 
-These projects demonstrate my proficiency in JavaScript and my ability to solve a variety of programming challenges. All projects are designed to meet specific criteria and pass automated test suites, showing my commitment to quality and accuracy in my work.
+These projects demonstrate proficiency in JavaScript and ability to solve a variety of programming challenges. All projects are designed to meet specific criteria and pass automated test suites, showing commitment to quality and accuracy in work.
