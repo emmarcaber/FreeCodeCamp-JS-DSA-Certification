@@ -23,13 +23,14 @@ function rot13(str) {
     // Function to decode the character
     function decodeChar(char) {
 
-        // IF the current char is an uppercase, decode it
+        // IF the current char is an uppercase letter, decode it
         if (upperCaseRegex.test(char)) {
             const charCode = char.charCodeAt(0);
             const decodedChar = ((charCode - 65 + 13) % 26) + 65;
             return String.fromCharCode(decodedChar)
         } 
-        // ELSE, return the current character
+        // ELSE, if the char is a non-alphanumeric character
+        // just return it
         else {
             return char;
         }
